@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+
+    <db name="firstDB">
+        <driver>org.sqlite.JDBC</driver>
+        <url>jdbc:sqlite:c:/Users/test/Employees.db</url>
+        <username>sa</username>
+        <password></password>
+    </db>
+
+    <db name="secondDB">
+        <driver>org.postgresql.Driver</driver>
+        <url>jdbc:postgresql://localhost:5432/Employees</url>
+        <username>postgres</username>
+        <password>David@06</password>
+    </db>
+
+    <db name="thirdDB">
+        <driver>com.mysql.cj.jdbc.Driver</driver>
+        <url>jdbc:mysql://127.0.0.1:3306/Employees</url>
+        <username>root</username>
+        <password>David@06</password>
+    </db>
+
+    <db name="fourthDB">
+        <driver>org.postgresql.Driver</driver>
+        <url>jdbc:postgresql://localhost:15432/postgres</url>
+        <username>david</username>
+        <password>David@1234</password>
+    </db>
+
+</dbs>
